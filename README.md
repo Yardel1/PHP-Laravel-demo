@@ -42,5 +42,9 @@ You an figure out where in the file for yourself!
 https://getcomposer.org/download/
 
 11.install Laravel by typing composer global require "laravel/installer"
-This adds laravel to the composer folder, which we added to our bash_profile file. Now you can run Laravel as a command from anywhere!
+This adds laravel to the composer folder, which we added to our bash_profile file. 
+
+Now you can run Laravel as a command from anywhere!
+To create a new project, type Laravel new Name_for_Project
+
 
