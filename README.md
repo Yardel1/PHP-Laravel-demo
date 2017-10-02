@@ -1,9 +1,14 @@
 # PHP-Laravel-demo
-Installation:
+
+###What is this good for?
+Laravel is a framework that utilizes expressive, elegant syntex, with automation set up, making authontication, routing, session and catching easier and as pain free as possible.
+
+
+###Installation:
 
 First we will install Homestead, which will allow us to work with all the pre-requisites without installing all of them on our system. Instead, we create a virtual system that is preconfigured with everything we need for Laravel.
 
-Homestead installation:
+####Homestead installation:
 
 1.install VirtualBox 5.1, and Vagrant
 
@@ -46,19 +51,27 @@ This adds laravel to the composer folder, which we added to our bash_profile fil
 
 Now you can run Laravel as a command from anywhere!
 To create a new project, type Laravel new Name_for_Project
-
+###Using the server
 At this point, you can continue and develop the server. The basic routing functionality will be set in the routes/web.php on the project's root folder. You can setup controllers by typing: (replace "some")
 	php artisan make:controller someController
 models by typing:
 	php artisan make:model some --migration
 these are automatic commands based on which Laravel will set up your project with the files and folder structure you need.
-Follow this tutorial to learn more: (read *notice* first)
-https://selftaughtcoders.com/from-idea-to-launch/lesson-17/laravel-5-mvc-application-in-10-minutes/
 
-Notice:
+
+
+####Notice:
 some changes have been made with Laravel's folder structure since the writing of the mentioned tutorial.
 You will find that there's no routes file, so as advised here, the file to edit will be web.php. For any other such issues, please look online, particularly in stackoverflow, solutions will be found.
 
 
-Assignment:
+##Assignment:
 Make a list of knock knock jokes to be randomly presented to the user.
+
+###Resources:
+https://laravel.com/docs/5.5/installation
+https://laravel.com/docs/4.2/quick
+https://laravel.com/docs/5.3/routing#basic-routing
+https://selftaughtcoders.com/from-idea-to-launch/lesson-17/laravel-5-mvc-application-in-10-minutes/ (see *notice*)
+https://laravel.com/docs/5.5/database#configuration
+
