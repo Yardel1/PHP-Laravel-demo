@@ -47,4 +47,18 @@ This adds laravel to the composer folder, which we added to our bash_profile fil
 Now you can run Laravel as a command from anywhere!
 To create a new project, type Laravel new Name_for_Project
 
+At this point, you can continue and develop the server. The basic routing functionality will be set in the routes/web.php on the project's root folder. You can setup controllers by typing: (replace "some")
+	php artisan make:controller someController
+models by typing:
+	php artisan make:model some --migration
+these are automatic commands based on which Laravel will set up your project with the files and folder structure you need.
+Follow this tutorial to learn more: (read *notice* first)
+https://selftaughtcoders.com/from-idea-to-launch/lesson-17/laravel-5-mvc-application-in-10-minutes/
 
+Notice:
+some changes have been made with Laravel's folder structure since the writing of the mentioned tutorial.
+You will find that there's no routes file, so as advised here, the file to edit will be web.php. For any other such issues, please look online, particularly in stackoverflow, solutions will be found.
+
+
+Assignment:
+Make a list of knock knock jokes to be randomly presented to the user.
