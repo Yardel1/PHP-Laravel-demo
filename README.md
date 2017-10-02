@@ -1,4 +1,5 @@
 # PHP-Laravel-demo
+[logo]:https://upload.wikimedia.org/wikipedia/commons/3/3d/LaravelLogo.png
 
 ### What is this good for?
 Laravel is a framework that utilizes expressive, elegant syntex, with automation set up, making authentication and other functionalities easier and pain free.
