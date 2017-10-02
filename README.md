@@ -24,19 +24,19 @@ git clone https://github.com/laravel/homestead.git Homestead
 ```
 4. enter the HomeStead folder and run 
 ```
-	git checkout v6.2.2
+git checkout v6.2.2
 ```
 This is the latest stable version of Homestead
 
 5. run 
 ```
-	bash init.sh
+bash init.sh
 ```
 This creates the configuration file Homestead.haml
 
 6. next, edit your hosts file and add: 
 ```
-	192.168.10.10  homestead.app
+192.168.10.10  homestead.app
 ```	
 7. You’re ready to Launch!
 ```
@@ -68,7 +68,7 @@ To create a new project, type Laravel new Name_for_Project
 ### Using the server
 At this point, you can continue and develop the server. The basic routing functionality will be set in the routes/web.php on the project's root folder. You can setup controllers by typing: (replace "some")
 ```
-	php artisan make:controller someController
+php artisan make:controller someController
 ```
 models by typing:
 ```
