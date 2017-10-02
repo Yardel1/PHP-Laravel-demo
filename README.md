@@ -13,7 +13,9 @@ First we will install Homestead, which will allow us to work with all the pre-re
 1. install VirtualBox 5.1, and Vagrant
 
 2. run command: 
+```
 vagrant box add laravel/homestead 
+```
 choose 2, and wait.
 
 3. Navigate to your home folder and run 
