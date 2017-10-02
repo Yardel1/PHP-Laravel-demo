@@ -87,9 +87,17 @@ You will find that there's no routes file, so as advised here, the file to edit 
 Make a list of knock knock jokes to be randomly presented to the user.
 
 ### Resources:
-[Installation Guide](https://laravel.com/docs/5.5/)
-[Quick Setup Guide](https://laravel.com/docs/4.2/quick)
-https://laravel.com/docs/5.3/routing#basic-routing
-https://selftaughtcoders.com/from-idea-to-launch/lesson-17/laravel-5-mvc-application-in-10-minutes/ (see *notice*)
-https://laravel.com/docs/5.5/database#configuration
+[Installation Guide](https://laravel.com/docs/5.5/)  
+
+
+[Quick Setup Guide](https://laravel.com/docs/4.2/quick)  
+
+
+[Routing with Laravel](https://laravel.com/docs/5.3/routing#basic-routing)
+
+
+[Tutorial](https://selftaughtcoders.com/from-idea-to-launch/lesson-17/laravel-5-mvc-application-in-10-minutes) (see *notice*)
+
+
+[DB Configuration](https://laravel.com/docs/5.5/database#configuration)
 
