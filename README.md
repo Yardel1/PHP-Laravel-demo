@@ -28,7 +28,7 @@ git checkout v6.2.2
 ```
 This is the latest stable version of Homestead
 
-5. run 
+5. run:
 ```
 bash init.sh
 ```
